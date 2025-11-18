@@ -1,7 +1,5 @@
 export default function Pricing() {
   return (
-    export default function PricingCard() {
-  return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-amber-50 to-orange-100 p-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-2xl overflow-hidden">
         {/* Header */}
@@ -35,7 +33,7 @@ export default function Pricing() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-orange-500 font-bold mt-1">✓</span>
-              <span className="text-gray-700">Flexible membership options (daily, weekly, )</span>
+              <span className="text-gray-700">Flexible membership options (daily, weekly, monthly)</span>
             </li>
           </ul>
 
@@ -46,7 +44,5 @@ export default function Pricing() {
         </div>
       </div>
     </div>
-  );
-}
   );
 }
